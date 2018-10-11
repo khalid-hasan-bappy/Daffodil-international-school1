@@ -1,0 +1,226 @@
+.id-main{
+    width:100%;
+
+}
+.id-main .st-id{
+    width:100%;
+    height:500px;
+    position:relative;
+}
+.st-id .id-card{
+    width:450px;
+    height:300px;
+    border:1px solid #000;
+    border-radius:20px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    overflow:hidden;
+    background: url('images/id-bg1.gif');
+    background-size: 100% 100%;
+}
+.id-card .id-top{
+    width:100%;
+    background:linear-gradient(#1C60B3, #073684);
+}
+.id-card .id-footer{
+    width:100%;
+    background:linear-gradient(#1C60B3, #073684);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.id-footer p{
+    text-align: center;
+    color: #fff;
+    margin: 8px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+.id-top h3{
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: 700;
+}
+.details{
+    width:90%;
+    padding:0px 20px;
+    overflow:hidden;
+    margin:auto;
+}
+.details .photo{
+    width:35%;
+    float:left;
+}
+.photo img{
+    display:block;
+    width:130px;
+    height:auto;
+    margin-top:35px;
+}
+.details .st-info{
+    width:65%;
+    float:left;
+}
+.st-info .box{
+    margin:8px 0px;
+}
+.st-info .box h3{
+    font-family: arial;
+    font-size: 16px;
+    text-align: right;
+    margin:0px;
+}
+.st-info .box p{
+    margin: 0px;
+    text-align: right;
+    color: red;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    src:url(fonts/TitilliumWeb-Bold.ttf);
+    font-family:mhbold;
+}
+.page-title h1{
+    font-family:mhbold;
+    font-size:40px;
+    text-transform:uppercase;
+    color:#fff;
+}
+.content header{
+    overflow:hidden;
+    background:linear-gradient(#1C60B3, #073684);
+}
+.content main{
+    background:url(images/bappy.jpg);
+    height: 560px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.log-panel{
+    width:100%;
+    height:100%;
+    position:relative;
+
+}
+.login-form{
+    width: 450px;
+    height: 350px;
+    -webkit-height:350px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background:rgba(0, 0, 0, .5);
+    border-radius:10px;
+    padding:15px;
+    border:1px dotted #fff;
+}
+form h2{
+    text-align:center;
+    text-transform:capitalize;
+    color:#fff;
+    font-family:mhbold;
+    font-size:30px;
+    margin:30px 0px;
+
+}
+form label{
+    color:#fff;
+    font-family:mhbold;
+    font-size:16px;
+    margin-right:40px;
+}
+form input[type=text]{
+    width:68%;
+    padding:5px 10px;
+    border-radius:30px;
+    border-style:none;
+}
+form input[type=password]{
+    width:68%;
+    padding:5px 10px;
+    border-radius:30px;
+    border-style:none;
+    margin: 5px 2px;
+}
+form input[type=text]:focus,
+form input[type=password]:focus{
+    border-radius:30px;
+    border-style:none;
+    outline:none;
+}
+form .sub{
+    padding:20px 0px;
+    margin-top: 40px;
+}
+form input[type=submit]{
+    float: right;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 3px;
+    color: #fff;
+    font-family: mhbold;
+    font-size: 16px;
+    background-color: #000;
+    cursor: pointer;
+    text-align: center;
+    background:linear-gradient(#073684, #1C60B3);
+}
+form input[type=submit]:hover{
+    background:linear-gradient(#1C60B3, #073684);
+}
+
+.sub a{
+    font-family:mhbold;
+    font-size:14px;
+    color:#fff;
+    text-decoration:none;
+}
+.sub a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
